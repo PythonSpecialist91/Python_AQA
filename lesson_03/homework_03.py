@@ -45,7 +45,7 @@ total_product = 375291
 first_storage_and_second_storage = 250449
 second_storage_and_third_storage = 222950
 
-third_storage = total_product - second_storage_and_third_storage
+third_storage = total_product - first_storage_and_second_storage
 second_storage = second_storage_and_third_storage - third_storage
 first_storage = first_storage_and_second_storage - second_storage
 
