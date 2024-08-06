@@ -70,14 +70,20 @@ print(second_index)
 """ Розділіть змінну adwentures_of_tom_sawer по кінцю речення.
 Збережіть результат у змінній adwentures_of_tom_sawer_sentences
 """
-adwentures_of_tom_sawer_sentences = adwentures_of_tom_sawer.split('.')
+
+adwentures_of_tom_sawer_sentences = adwentures_of_tom_sawer.split('. ')
+
+print(" ")
+# - //для раделения строк в консоли для удобства и проверки.
+
 print(adwentures_of_tom_sawer_sentences)
+
 
 # task 08
 """ Виведіть четверте речення з adwentures_of_tom_sawer_sentences.
 Перетворіть рядок у нижній регістр.
 """
-fourth_sentence = adwentures_of_tom_sawer_sentences[3];
+fourth_sentence = adwentures_of_tom_sawer_sentences[4]
 print(fourth_sentence)
 lower_register = fourth_sentence.lower()
 print(lower_register)
@@ -94,6 +100,13 @@ else:
 """ Виведіть кількість слів останнього речення з adwentures_of_tom_sawer_sentences.
 """
 last_sentence = adwentures_of_tom_sawer_sentences[-1]
-words = last_sentence.split()
+words = last_sentence.split(" ")
+
 counter_words = len(words)
 print(counter_words)
+
+# print(last_sentence)
+# print(adwentures_of_tom_sawer_sentences[4])
+#
+# count = len(adwentures_of_tom_sawer_sentences)
+# print(count)                                      - исправлял ошибки, делал проверки. Не обращайте внимания))
