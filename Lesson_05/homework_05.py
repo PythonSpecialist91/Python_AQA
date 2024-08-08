@@ -45,6 +45,7 @@ car_data = {
   'Ford F-Series': ('gray', 2021, 3.5, 'pickup', 50000),
   'Nissan Titan': ('silver', 2018, 5.6, 'pickup', 35000)
 }
+
 search_criteria = (2017, 1.6, 36000)
 min_year, min_engine_volume, max_price = search_criteria
 
@@ -59,4 +60,4 @@ for car in sorted(filtered_cars, key=lambda x: car_data[x][4])[:5]:
     details = car_data[car]
     print(f"Car: {car}, Color: {details[0]}, Year: {details[1]}, Engine Volume: {details[2]}, Type: {details[3]}, Price: {details[4]}")
 
-
+    print("Thank tou for attention")
