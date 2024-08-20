@@ -166,12 +166,14 @@ while not is_correct_str:
     is_correct_str = is_valid_word(provided_word)
 
 # Task 3
+
 def filter_strings_from_list(input_list: list) -> list[str]:
     """Фильтрует строки из списка."""
     return [item for item in input_list if isinstance(item, str)]
 
 lst1 = ['1', '2', 3, True, 'False', 5, '6', 7, 8, 'Python', 9, 0, 'Lorem Ipsum']
 print(filter_strings_from_list(lst1))
+
 
 #Task 4
 def sum_of_even_numbers(numbers: list[int]) -> int:
